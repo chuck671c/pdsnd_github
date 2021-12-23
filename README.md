@@ -11,9 +11,7 @@ Importing data and computing descriptive statistics, the project will answer que
 Through an interactive experience, the program will solicit inputs from users to customize and present the data they are interested in.  For example, asking which city's data they would like to look at, during which months, or the days of the week, and whether they would like to see the raw data on which the statistics were derived.
 
 ### Files used
-chicago.csv
-new_york_city.csv
-washington.csv
+chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
 No coding credits applicable.
