@@ -4,7 +4,7 @@ import numpy as np
 
 
 def get_filters():
-    '''Receives input filters values from users and returns said filters in the appropriate variables.'''
+    """Receives input filters values from users and returns said filters in the appropriate variables."""
 
     # use input_match function to get the required city, month, and day filters
     city = input_match('\nPlease enter the city for which you would like to see the Bikeshare data...', cities)
@@ -15,7 +15,7 @@ def get_filters():
     
     
 def load_data(city, month, day):
-    '''Based on filter arguements, load/return Bikeshare data into a dataframe.'''
+    """Based on filter arguements, load/return Bikeshare data into a dataframe."""
 
     # load data file with corresponding city into a dataframe
     df = pd.read_csv(city_data[city])
@@ -39,7 +39,7 @@ def load_data(city, month, day):
 
 
 def time_stats(df):
-    '''Displays statistics on the most frequent times of travel.'''
+    """Displays statistics on the most frequent times of travel."""
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
@@ -116,6 +116,7 @@ def user_stats(df):
     else:
         print('\nNo rider information by gender is available.')
     # Display earliest, most recent, and most common year of birth f:- first checking whether column exits (may not always)
+    # Using if statement as not all files have 'Birth Year' information available
     if 'Birth Year' in df:
         user_max_age = df['Birth Year'].max()
         user_min_age = df['Birth Year'].min()
