@@ -190,6 +190,7 @@ def main():
 
 # create variables for Udacity project 3 - to be created and eventually deleted for practice
 temporary1 = 'Udacity Temp Variable'
+new_temporary2 = temporary1
 
 city_data = { 'Chicago': 'chicago.csv',
               'New York': 'new_york_city.csv',
