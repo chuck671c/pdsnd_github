@@ -188,6 +188,9 @@ def main():
             print('\nYou have chosen to exit the system.  Thank you for using the Rideshare information app.')
             break
 
+# create variables for Udacity project 3 - to be created and eventually deleted for practice
+temporary1 = 'Udacity Temp Variable'
+
 city_data = { 'Chicago': 'chicago.csv',
               'New York': 'new_york_city.csv',
               'Washington': 'washington.csv' }
