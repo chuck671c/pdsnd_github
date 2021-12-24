@@ -189,11 +189,13 @@ def main():
             print('\nYou have chosen to exit the system.  Thank you for using the Rideshare information app.')
             break
 
+# initializing global variables for bikeshare project
 city_data = { 'Chicago': 'chicago.csv',
               'New York': 'new_york_city.csv',
               'Washington': 'washington.csv' }
 cities = ['Chicago', 'New York', 'Washington']
 months = ['January', 'February', 'March', 'April', 'May', 'June', 'All']
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'All']
+
 if __name__ == "__main__":
 	main()
