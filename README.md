@@ -14,5 +14,5 @@ Through an interactive experience, the program will solicit inputs from users to
 chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
-No coding credits applicable - no outside sources used.
+No coding credits applicable - no outside sources used
 
